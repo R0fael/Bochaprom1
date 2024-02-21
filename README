@@ -1,1 +1,17 @@
-## Bochaprom1
+## Bochaprom 1
+
+This is a simulator for [@R0fael's](https://github.com/R0fael) processor Bochaprom 1
+
+Code own programs in .bbf(Binary Bochaprom File)
+
+All variables are saving only with 2 symbols
+
+this processor can:
+do basic math
+swapping registers
+print stuff
+use all logic gates
+exit from project
+jump to specific line
+run other Code
+input from console
