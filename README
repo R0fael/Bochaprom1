@@ -2,16 +2,24 @@
 
 This is a simulator for [@R0fael's](https://github.com/R0fael) processor Bochaprom 1
 
-Code own programs in .bbf(Binary Bochaprom File)
+# Command List
 
-All variables are saving only with 2 symbols
-
-this processor can:
-do basic math
-swapping registers
-print stuff
-use all logic gates
-exit from project
-jump to specific line
-run other Code
-input from console
+0x00 | 0  nothing
+0x01 | 1  mov
+0x02 | 2  swap
+0x03 | 3  add
+0x04 | 4  sub
+0x05 | 5  mult
+0x06 | 6  div
+0x07 | 7  compare
+0x08 | 8  AND
+0x09 | 9  OR
+0x0a | 10 NOT
+0x0b | 11 jmp
+0x0c | 12 jmpZ
+0x0d | 13 jmpS
+0x0e | 14 jmpZS
+0x0f | 15 load
+0x10 | 16 save
+0x11 | 17 saveF
+0x12 | 18 set
