@@ -19,4 +19,5 @@ def STL(text):
     return out
 
 
-print(STL("Hello, World!\n"))
+if __name__ == "__main__":
+    print(STL("Hello, World!\n"))

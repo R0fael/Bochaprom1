@@ -1,6 +1,6 @@
 import time
 
-import basm
+from Basembler import basm
 
 from execute import *
 

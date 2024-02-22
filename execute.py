@@ -51,13 +51,13 @@ def operate(command, a, b, result):
         case 0x0b:
             return a
         case 0x0c:
-            if registers[a] == z:
-                return b
+            if registers[b] == z:
+                return a
         case 0x0d:
             return registers[a]
         case 0x0e:
-            if registers[a] == z:
-                return registers[b]
+            if registers[b] == z:
+                return registers[a]
         case 0x0f:
             registers[result] = device_manager.get(a, b)
         case 0x10:
